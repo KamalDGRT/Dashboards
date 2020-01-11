@@ -5,7 +5,7 @@
     <title>Dashboard 1</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/styles.css">
-    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
 
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
@@ -14,12 +14,16 @@
 
       <div class="row">
           <div class="col-sm-8">
-              <div class="banner">
+              <div class="header">
                   <h1>Banner Heading</h1>
               </div>
           </div>
-          <div class="col-sm-2"> Username </div>
-          <div class="col-sm-2"> Logout </div>
+          <div class="col-sm-2 h_pad">
+              <span class="fas fa-user"></span>Username
+          </div>
+          <div class="col-sm-2 h_pad">
+            <span class="fas fa-sign-out-alt warn"></span>Logout
+          </div>
       </div>
 
       <div class="row">
@@ -27,7 +31,7 @@
         <div class="col-sm-2">
             <div id="d_container">
                 <div id="sideMenu">
-                    <h6  class="dashboard">Dashboard</h6>
+                    <h6  class="dashboard"><i>Dashboard</i></h6>
                     <ul class="menu">
                         <li>Heading 1</li>
                         <li>Sub Entry 1</li>

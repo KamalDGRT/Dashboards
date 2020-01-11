@@ -1,10 +1,15 @@
-.banner
+.header
 {
   padding-left: 15px;
   padding-top: 10px;
   padding-bottom:10px;
+
 }
 
+body
+{
+  background-color: #fff;
+}
 #d_container {
   display: table;
   background: #202b33;
@@ -44,4 +49,16 @@
   font-size: 16px;
   font-weight: 400;
   color: #fff;
+}
+
+.h_pad
+{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+span
+{
+  padding-left: 5px;
+  padding-right: 5px;
 }
